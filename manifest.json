@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "name": "Github PR Review",
+  "version": "1.0",
+  "content_scripts": [
+    {
+      "matches": ["https://github.com/*"],
+      "css": ["styles.css"],
+      "js": ["script.js"],
+      "all_frames": false,
+      "match_origin_as_fallback": false,
+      "match_about_blank": false,
+      "run_at": "document_idle",
+      "world": "ISOLATED"
+    }
+  ],
+  "permissions": ["activeTab"]
+}
