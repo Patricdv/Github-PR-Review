@@ -5,7 +5,7 @@ body.insertAdjacentHTML('afterbegin', `
     <div id="pr-review">
         <div>
             <button type="button" class="collapsible">Architecture</button>
-            <div class="content">
+            <div class="content active">
                 <div class="form-check">
                     <input class="form-check-input" type="checkbox" value="" id="architecture-patterns">
                     <label class="form-check-label" for="architecture-patterns">
@@ -31,7 +31,7 @@ body.insertAdjacentHTML('afterbegin', `
 
         <div>
             <button type="button" class="collapsible">Implementation</button>
-            <div class="content">
+            <div class="content active">
                 <div class="form-check">
                     <input class="form-check-input" type="checkbox" value="" id="implementation-requirements">
                     <label class="form-check-label" for="implementation-requirements">
@@ -78,7 +78,7 @@ body.insertAdjacentHTML('afterbegin', `
 
         <div>
             <button type="button" class="collapsible">Documentation</button>
-            <div class="content">
+            <div class="content active">
                 <div class="form-check">
                     <input class="form-check-input" type="checkbox" value="" id="documentation-exists">
                     <label class="form-check-label" for="documentation-exists">
@@ -98,7 +98,7 @@ body.insertAdjacentHTML('afterbegin', `
 
         <div>
             <button type="button" class="collapsible">Tests</button>
-            <div class="content">
+            <div class="content active">
                 <div class="form-check">
                     <input class="form-check-input" type="checkbox" value="" id="tests-exists">
                     <label class="form-check-label" for="tests-exists">
